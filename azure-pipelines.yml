@@ -2,10 +2,10 @@ trigger:
   - master
 
 pool:
-  name:Default
+  name: Default
 
 steps:
-  - script: Hello echo,its my Azure Devops App
+  - script: echo Hello, it's my Azure Devops App
     displayName: 'Run an echo command'
     
   - script: mvn clean install
